@@ -1,12 +1,12 @@
 @media screen and (min-width: 700px) {
     .mainContainer {
-        margin: 0px 40px 40px 40px;
+        margin:0 40px 40px 40px;
     }
 }
 
 @media (max-width: 700px) {
     .mainContainer {
-        margin: 0px 0px 40px 2px;
+        margin: 0 0 40px 2px;
     }
 }
 
@@ -20,7 +20,7 @@
 }
 
 .headlineContainer {
-    margin: 80px 0px 40px 5px;
+    margin: 80px 0 40px 5px;
 }
 
 md-input-container {
