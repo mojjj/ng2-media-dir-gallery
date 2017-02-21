@@ -1,0 +1,13 @@
+<div class="mainContainer">
+    <md-input-container>
+        <input md-input [(ngModel)]="flexBorderSize" type="number" min="1" max="50" placeholder="Space between images">
+    </md-input-container>
+    <md-input-container>
+        <input md-input [(ngModel)]="flexImageSize" type="number" min="0" max="50" placeholder="Image size">
+    </md-input-container>
+    <input md-input [(ngModel)]="galsrc" type="string">
+
+    <gallery (viewerChange)="onViewerVisibilityChanged($event)" [flexBorderSize]="flexBorderSize" [flexImageSize]="flexImageSize" [galsrc] = "galsrc"></gallery>
+
+    <br/><br/>
+</div>

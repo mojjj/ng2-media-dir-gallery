@@ -1,1 +1,42 @@
-# Created by .ignore support plugin (hsz.mobi)
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/publish
+/src/app/*.js
+/src/app/demo/*.js
+/src/app/gallery/*.js
+/src/app/services/*.js
+/src/app/viewer/*.js
+
+# dependencies
+/node_modules
+tools/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+upload-temp.sh
+upload-prod.sh
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+images_to_convert/

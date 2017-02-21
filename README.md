@@ -1,6 +1,7 @@
 # Angular 2 Media Gallery from Directory
 
-Standalone serve media Website from a Directory e.g. to show on mobile Devices in your local WLAN. 
+Standalone Website Viewer for Media Directory 
+e.g. show Holiday Media files on mobile Devices in your local WLAN, served by a Raspberry Pi
 Supports Images / videos (mp4, 3gp, webm, via HTML5 video tag) see https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
 Browser: 
 IE: 9.0+
@@ -9,14 +10,14 @@ Firefox: 3.5+
 Safari: 4.0+
 Opera: 10.5+
 
-The project consists of a gallery, a viewer and a script for image preparation.
+The project consists of a Website and a script for image preparation.
 
 Before using the gallery, you have to process all of your images that will be part of your gallery with the node.js script. 
 The processed images will be stored to your applications assets. 
 During runtime everything runs client-side and there is no separate server-side communication involved. 
 The viewer takes care that an optimal image quality is served based on the device resolution.
 
-It is based on https://github.com/BenjaminBrandmeier/angular2-image-gallery
+based on https://github.com/BenjaminBrandmeier/angular2-image-gallery
 
 ## Demo
 
@@ -24,7 +25,7 @@ TODO
 
 ## How to use the gallery in your project
 ### Pre-requirements
-Install **node (>= 4.2.2)** and **graphicsmagick**: http://www.graphicsmagick.org/README.html#installation
+Install **node 6.9.4+** and **graphicsmagick**: http://www.graphicsmagick.org/README.html#installation
 
 #### HowTo - Run convert script
 
@@ -43,7 +44,7 @@ Add a flag to define the order of the images inside the gallery
 
 TODO
 
-#### HowTo - run in production (low memory footprint, tested on Rasperry Pi 2 B+)
+#### HowTo - run in production (low memory footprint, tested on Raspberry Pi 2 B+)
 
 TODO
 
