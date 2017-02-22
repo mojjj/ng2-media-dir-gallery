@@ -9,12 +9,12 @@ import {
     animate
 } from "@angular/core"
 import "rxjs/Rx"
-import {ImageService} from "../../services/image.service"
+import {ImageService} from "../services/image.service"
 
 @Component({
-    selector: 'viewer',
-    templateUrl: 'viewer.img.component.html',
-    styleUrls: ['viewer.img.component.css'],
+    selector: 'viewer-img',
+    templateUrl: 'viewer.component.html',
+    styleUrls: ['viewer.component.css'],
     host: {
         '(document:keydown)': 'onKeydown($event)',
     },

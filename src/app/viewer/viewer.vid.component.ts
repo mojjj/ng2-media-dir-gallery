@@ -9,10 +9,10 @@ import {
     animate
 } from "@angular/core"
 import "rxjs/Rx"
-import {ImageService} from "../../services/image.service"
+import {ImageService} from "../services/image.service"
 
 @Component({
-    selector: 'viewer',
+    selector: 'viewer-vid',
     templateUrl: 'viewer.component.html',
     styleUrls: ['viewer.component.css'],
     host: {

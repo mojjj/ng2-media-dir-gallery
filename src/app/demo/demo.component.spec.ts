@@ -2,7 +2,7 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {DemoComponent} from './demo.component';
 import {MaterialModule} from '@angular/material';
-import {ViewerComponent} from '../viewer/img/viewer.img.component';
+import {ViewerComponent} from '../viewer/viewer.img.component';
 import {GalleryComponent} from '../gallery/gallery.component';
 import {FormsModule} from '@angular/forms';
 import {ImageService} from '../services/image.service';
